@@ -1,0 +1,49 @@
+*body{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.achor{
+    margin: 30px;
+}
+#navigation-css{
+    float: right;
+    margin-right: 20px;
+}
+
+#nav-divsion{
+    background-image: url('image/bgOne.jpg');
+    background-size: 100% 800px;
+}
+#main{
+    height: 800px;
+    width: 100%;
+}
+#navigation-brand{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    color: rgb(3, 1, 1);
+    
+}
+
+#main-2{
+    height: 800px;
+    width: 100%;
+    background-color: yellow;
+}
+#main-3{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(0, 255, 106);
+
+}
+#main-1{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(76, 0, 255);
+
+}
