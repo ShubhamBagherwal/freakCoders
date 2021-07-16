@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+body {
+  margin: 0px;
+  color: #777;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  text-rendering: optimizeLegibility;
+}
+
+nav {
+  background: -webkit-gradient(linear, left bottom, right top, from(#72afd3), to(#1abc9c));
+  background: linear-gradient(to right top, #72afd3, #1abc9c);
+  position: relative;
+  top: 0px;
+  padding: 40px 0px;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 100%;
+}
+
+section, footer {
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+h3 {
+  color: #353541;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #12656c;
+}
+
+.underline-nav {
+  padding: 0px;
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+.underline-nav li {
+  display: inline;
+}
+
+.underline-nav li a {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #353541;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.underline-nav li a:before {
+  -webkit-transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.underline-nav li a:hover {
+  color: #fff;
+  letter-spacing: 6px;
+}
+
+.underline-nav li a:hover:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.transform-left a:before {
+  -webkit-transform-origin: 10% 0%;
+          transform-origin: 10% 0%;
+}
+
+.transform-right a:before {
+  -webkit-transform-origin: 100% 0%;
+          transform-origin: 100% 0%;
+}
+
+@media (max-width: 768px) {
+  .underline-nav li {
+    padding: 10px;
+    display: block;
+  }
+}
+/*# sourceMappingURL=sty.css.map */
