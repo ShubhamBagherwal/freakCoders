@@ -60,7 +60,8 @@ a:hover {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  color: #353541;
+  color: #1616b9;
+  text-shadow: 2px 2px #ff0000;
   text-decoration: none;
   padding: 10px;
   position: relative;
