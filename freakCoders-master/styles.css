@@ -45,24 +45,20 @@ a:hover{
 #main-2{
     height: 800px;
     width: 100%;
-    background-color: yellow;
+
 }
 #about-us{
     height: auto;
     width: 100%;
-    background-color: rgb(13, 13, 14);
-
+    
 }
 #services{
     height: 650px;
     width: 100%;
-    background-color: rgb(13, 13, 14);
+    
 
 }
-#Contact-us{
-    background-color: wheat;
-    height: 30px;
-}
+
 #cardGroup{
     padding: 40px;
 }
@@ -152,7 +148,6 @@ a:hover{
     }
 }
 #about-us-css{
-    padding: 40px;
     text-align: center;
 }
 #about-us-css h1{
@@ -175,7 +170,8 @@ a:hover{
     margin-top: 50px;
     color: whitesmoke;
     font-size: 20px;
-    background-color: orange;
+
+    
     padding: 0%;
     margin: 0%;
 }
@@ -189,7 +185,7 @@ a:hover{
     margin-top: 50px;
     color: whitesmoke;
     font-size: 15px;
-    background-color: rgb(255, 47, 144);
+
     padding: 0%;
     margin: 0%;
 }
@@ -199,3 +195,16 @@ a:hover{
 }
 
 
+.m-0{
+margin: 0 0 0 0;
+}
+
+.bgcolordark{
+background-color: rgb(13, 13, 14);
+
+}
+
+.padding-form{
+    padding-right:10%;
+    padding-top: 11%;
+}
