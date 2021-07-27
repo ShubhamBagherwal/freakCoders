@@ -2,15 +2,21 @@ body{
     padding: 0%;
     margin: 0%;
     background-color: rgb(38, 41, 43);
-	max-width: 1920px; 
+	max-width: 1560px; 
+    width: 100%;
 	margin: 0 auto !important; 
 	float: none !important; 
 }
-nav{
-    position: absolute;
-     top:0;
-      max-width: 1920px;
-      align-items: center;
+#mynav{
+    width: 1440px;
+    padding-right: 3%;
+}
+@media (max-width: 1260px) {
+    #mynav{
+        width: 100%;
+        padding-right: 0%;
+    }
+    
 }
 
 .achor{
@@ -23,14 +29,20 @@ nav{
 }
 
 #nav-divsion{
-    background-image: url('image/bgOne.jpg');
+    background-image: url('image/bgtwo.jpg');
     background-repeat: no-repeat;
+    width:100%;
+    height: auto;
+    /*
     background-size: 100% auto;
     max-width: 1920px;
+    */
 }
+
 #main{
-    height: 800px;
-    width: 100%;
+    padding: 10%;
+    width: 1080px;
+    height: auto;
 }
 #navigation-brand{
     padding: 0%;
@@ -58,66 +70,108 @@ a:hover{
     width: 100%;
     
 }
-
-
-/* Services Card Css Start  */
-.services{
-    align-items: center;
-    height: 7in;
-    background-color: black;
-}
-.card{
+#services{
+    height: 650px;
     width: 100%;
-    height: 7in;
+    
+
 }
-.title-for-card{
+
+#cardGroup{
+    padding: 40px;
+}
+#CardidOne{
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+}
+#card-block-one{
     padding: 0%;
-    margin: 30px;
-    font-size: 200%;
-    align-items: center;
+    margin: 0%;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(175, 33, 8);
 }
-.card-text{
-    margin-top: 40vh;
-    font-size: 120%;
+#card-text-one{
+    margin-top: 160px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
-.card-one{
-    background-image: url("image/card1.jpg") ;
-    background-size: 100% auto;
+#cardbodyone{
+    background-image: url("image/card1.jpg");
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
- }
-
-.card-text-one{
-    font-size: 80%;
-    color:rgb(175, 33, 8);
-    text-decoration: none;
-
+    margin-top: 4px;
+    background-size: auto 100%;
 }
-.card-two{
+#cardbodytwo{
     background-image: url("image/card2.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-.card-text-two{
-    font-size: 80%;
-    color:rgb(8, 175, 8);
-    text-decoration: none;
-}
-.card-three{
-    background-image: url("image/card3.jpg");
-    background-size: 100% auto;
     background-repeat: no-repeat;
-
+    margin-top: 4px;
+    background-size: auto 100%;
 }
-/* Services Card Css End  */
+#cardbodythree{
+    background-image: url("image/card3.jpg");
+    background-repeat: no-repeat;
+    margin-top: 4px;
+    background-size: auto 100%;
+}
 
+#card-title-one{
+    padding: 30px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+#card-block-Two{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(204, 7, 243);
+}
+#card-block-Three{
+    padding: 0%;
+    margin: 0%;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(237, 240, 63);
+}
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
 
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}
+/*
+@media (min-width: 2440px) {
+    #mynav{
+        width: auto;
+        margin-left:18% ;
+    }
+}*/
 #about-us-css{
     text-align: center;
 }
@@ -177,9 +231,19 @@ background-color: rgb(13, 13, 14);
 
 .padding-form{
     padding-right:10%;
-    padding-top: 11%;
-<<<<<<< Updated upstream:freakCoders-master/styles.css
+    padding-top: 0%;
 }
-=======
+
+.tagline
+{
+    font-size: 300%;
+    align-content: center;
+
 }
->>>>>>> Stashed changes:styles.css
+.transparent-bg{
+	background: rgba(189, 183, 173, 0.43);
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    
+}
